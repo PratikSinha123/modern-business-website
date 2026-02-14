@@ -1,36 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-header {
-    background: #222;
-    color: white;
-    padding: 40px 20px;
-}
-
-section {
-    padding: 40px 20px;
-}
-
-h2 {
+    font-family: 'Poppins', sans-serif;
     color: #333;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-ul li {
-    margin: 10px 0;
+.overlay {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section.dark {
+    background: #f4f4f4;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-weight: 500;
 }
 
 footer {
     background: #222;
     color: white;
     padding: 20px;
+    text-align: center;
 }
